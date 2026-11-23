@@ -1,3 +1,9 @@
 fn main() {
-    println!("Hello, world!");
+    title();
+}
+
+fn title() {
+    println!("====================");
+    println!("RUST LEARNING JOURNAL");
+    println!("====================");
 }

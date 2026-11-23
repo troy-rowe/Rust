@@ -1,0 +1,108 @@
+==================================================
+MILESTONE PROJECT 01 - RUST LEARNING JOURNAL
+==================================================
+
+--------------------------------------------------
+REQUIREMENTS
+--------------------------------------------------
+
+1. PROGRAM TITLE
+
+Create a title banner at the top of the program.
+
+Example:
+
+=========================
+RUST LEARNING JOURNAL
+=========================
+
+You may customize the design.
+
+--------------------------------------------------
+
+2. PERSONAL INFORMATION
+
+Create variables for:
+
+- Name
+- Age
+- Major
+- Favorite Programming Language
+
+Print all information to the terminal.
+
+--------------------------------------------------
+
+3. LEARNING PROGRESS
+
+Create variables for:
+
+- Current Lesson
+- Current Editor
+- Operating System
+
+Print all information to the terminal.
+
+--------------------------------------------------
+
+4. MUTABLE VARIABLES
+
+Create at least TWO mutable variables.
+
+For each mutable variable:
+
+- Assign an initial value
+- Change the value
+- Print the final value
+
+At least two variables in the project must use the mut keyword.
+
+--------------------------------------------------
+
+5. LEARNING GOALS
+
+Create at least THREE variables containing programming-related goals.
+
+Examples:
+
+- Learn Rust
+- Create a Programming Language
+- Learn Systems Programming
+- Build Real Projects
+- Contribute to Open Source
+
+Use your own goals if desired.
+
+Print all goals to the terminal.
+
+--------------------------------------------------
+
+PROJECT RULES
+
+✅ Must use fn main()
+
+✅ Must use at least 10 variables total
+
+✅ Must use at least 2 mutable variables
+
+✅ Must use multiple println!() statements
+
+✅ Must organize output into sections
+
+✅ Must use meaningful variable names
+
+✅ Must compile without warnings
+
+--------------------------------------------------
+
+SUCCESS CRITERIA
+
+When cargo run is executed, the program should display:
+
+- A title banner
+- Personal information
+- Learning progress
+- Updated mutable values
+- Programming goals
+
+The output should be clean, organized, and free of compiler warnings.
