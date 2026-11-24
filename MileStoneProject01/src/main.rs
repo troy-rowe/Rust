@@ -13,6 +13,12 @@ fn main() {
     println!("This is my current learning progress:");
     //This contains my current learning progress
     learning_progress();
+
+    println!();
+
+    println!("This is my practice with mutable variables:");
+    //This contains my practice with mutable variables
+    mutable_variables();
 }
 
 fn title() {
@@ -65,4 +71,28 @@ fn learning_progress() {
 
     println!("This is the operating system I am using:");
     println!("{}", operating_system);
+}
+
+fn mutable_variables() {
+    let mut num1 = 100;
+    println!("This is 'num1' before the change:");
+    println!("{}", num1);
+    num1 = 200;
+
+    println!();
+
+    let mut num2 = 1000;
+    println!("This is 'num2' before the change:");
+    println!("{}", num2);
+    num2 = 2000;
+
+    println!();
+
+    println!("This is 'num1' after the change:");
+    println!("{}", num1);
+
+    println!();
+
+    println!("This is 'num2' after the change:");
+    println!("{}", num2);
 }
