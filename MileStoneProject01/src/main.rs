@@ -19,12 +19,18 @@ fn main() {
     println!("This is my practice with mutable variables:");
     //This contains my practice with mutable variables
     mutable_variables();
+
+    println!();
+
+    println!("Here are my learning goals:");
+    //This contains my learning goals
+    learning_goals();
 }
 
 fn title() {
-    println!("====================");
+    println!("=====================");
     println!("RUST LEARNING JOURNAL");
-    println!("====================");
+    println!("=====================");
 }
 
 fn personal_info() {
@@ -95,4 +101,23 @@ fn mutable_variables() {
 
     println!("This is 'num2' after the change:");
     println!("{}", num2);
+}
+
+fn learning_goals() {
+    let goal1 = "Learn Rust";
+    let goal2 = "Graduate College";
+    let goal3 = "Build Real Projects";
+
+    println!("This is my first goal:");
+    println!("{}", goal1);
+
+    println!();
+
+    println!("This is my second goal:");
+    println!("{}", goal2);
+
+    println!();
+
+    println!("This is my third goal:");
+    println!("{}", goal3)
 }
