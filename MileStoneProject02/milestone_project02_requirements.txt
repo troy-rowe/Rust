@@ -1,0 +1,193 @@
+==================================================
+MILESTONE PROJECT 02 - RUST LEARNER SURVEY
+==================================================
+
+Objective:
+Create an interactive terminal application that collects information from the user and displays a formatted summary.
+
+The primary focus of this project is demonstrating your understanding of:
+
+- Lesson 3 (Project Structure and Data Types)
+- Lesson 4 (User Input)
+
+You may use concepts from previous lessons where necessary, but the project should mainly showcase Lessons 3 and 4.
+
+--------------------------------------------------
+PROJECT SCENARIO
+--------------------------------------------------
+
+Create a Rust program that acts as a survey for a Rust learner.
+
+The program should gather information from the user and display a summary at the end.
+
+--------------------------------------------------
+REQUIREMENTS
+--------------------------------------------------
+
+1. PROGRAM TITLE
+
+Display a title banner when the program starts.
+
+Example:
+
+=========================
+RUST LEARNER SURVEY
+=========================
+
+You may customize the design.
+
+--------------------------------------------------
+
+2. USER INFORMATION
+
+Ask the user for:
+
+- Name
+- Current Rust Lesson
+- Favorite Programming Language
+
+Store all responses.
+
+Print the responses in a summary section.
+
+--------------------------------------------------
+
+3. ADDITIONAL QUESTIONS
+
+Ask the user for at least THREE additional pieces of information.
+
+Examples:
+
+- Favorite Sport
+- College Major
+- Dream Programming Project
+- Favorite Computer Game
+- Preferred Code Editor
+- Future Career Goal
+
+You may choose your own questions.
+
+Store all responses.
+
+--------------------------------------------------
+
+4. DATA TYPE DEMONSTRATION
+
+Create and display at least one example of each of the following data types:
+
+- i32
+- f64
+- bool
+- char
+
+These may be hard-coded values.
+
+Examples:
+
+Current year studied in college
+Hours studied today
+Enjoying Rust
+Favorite letter
+
+The goal is to demonstrate your understanding of Lesson 3 data types.
+
+--------------------------------------------------
+
+5. SURVEY SUMMARY
+
+After all questions are answered, display a formatted summary.
+
+Example:
+
+=========================
+SURVEY RESULTS
+=========================
+
+Name: Troy
+Current Lesson: 4
+Favorite Language: Python
+Favorite Sport: Hockey
+
+...
+
+--------------------------------------------------
+
+6. CODE ORGANIZATION
+
+Use functions to organize the program.
+
+Suggested examples:
+
+- title()
+- collect_user_info()
+- data_type_demo()
+- survey_summary()
+
+You are free to organize the program however you want.
+
+The goal is readability and organization.
+
+--------------------------------------------------
+PROJECT RULES
+--------------------------------------------------
+
+✅ Must use fn main()
+
+✅ Must use user input
+
+✅ Must use String::new()
+
+✅ Must use io::stdin()
+
+✅ Must use read_line()
+
+✅ Must use at least 6 user-input questions
+
+✅ Must demonstrate all four Lesson 3 data types
+    - i32
+    - f64
+    - bool
+    - char
+
+✅ Must display a formatted summary
+
+✅ Must use meaningful variable names
+
+✅ Must compile without warnings
+
+✅ Must be organized into functions
+
+--------------------------------------------------
+
+OPTIONAL CHALLENGE
+--------------------------------------------------
+
+Create additional formatting to make the output easier to read.
+
+Examples:
+
+- Blank lines
+- Section headers
+- Decorative borders
+
+This is optional but recommended.
+
+--------------------------------------------------
+
+SUCCESS CRITERIA
+--------------------------------------------------
+
+When cargo run is executed:
+
+1. The user sees a title banner.
+2. The user answers multiple questions.
+3. The program demonstrates the Lesson 3 data types.
+4. A formatted summary is displayed.
+5. The program compiles without warnings.
+6. The code is organized and easy to read.
+
+Primary Focus:
+- Lesson 3 (Data Types)
+- Lesson 4 (User Input)
+
+This project should clearly demonstrate your understanding of both topics.
