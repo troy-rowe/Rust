@@ -168,18 +168,6 @@ PROJECT RULES
 
 ✅ Must only use concepts from Lessons 1-4
 
-❌ No loops
-
-❌ No conditionals
-
-❌ No structs
-
-❌ No vectors
-
-❌ No modules
-
-❌ No concepts from future lessons
-
 --------------------------------------------------
 
 SUCCESS CRITERIA
