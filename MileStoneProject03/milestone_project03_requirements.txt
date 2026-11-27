@@ -1,0 +1,214 @@
+==================================================
+MILESTONE PROJECT 03 - STUDENT INFORMATION SYSTEM
+==================================================
+
+Objective:
+Create an interactive terminal application that combines everything learned in Lessons 1-4.
+
+You may use:
+
+- Functions
+- Variables
+- Mutability
+- Data Types
+- Type Annotations
+- User Input
+- String::new()
+- io::stdin()
+- println!()
+
+Do NOT use concepts that have not yet been learned.
+
+--------------------------------------------------
+REQUIREMENTS
+--------------------------------------------------
+
+1. PROGRAM TITLE
+
+Create a title banner.
+
+Example:
+
+==========================
+STUDENT INFORMATION SYSTEM
+==========================
+
+The design is up to you.
+
+--------------------------------------------------
+
+2. USER INPUT SECTION
+
+Prompt the user for:
+
+- Name
+- Age
+- Major
+- Favorite Programming Language
+
+Store each value.
+
+--------------------------------------------------
+
+3. LEARNING INFORMATION SECTION
+
+Prompt the user for:
+
+- Current Rust Lesson
+- Hours Studied
+- Enjoying Rust (allow text input)
+
+Store each value.
+
+--------------------------------------------------
+
+4. DATA TYPES
+
+Your project must contain examples of:
+
+- Integer
+- Floating Point Number
+- Boolean
+- Character
+- String
+
+At least THREE variables must use explicit type annotations.
+
+Examples:
+
+let age: i32 = 24;
+
+let hours_studied: f64 = 2.5;
+
+--------------------------------------------------
+
+5. MUTABLE VARIABLES
+
+Create at least TWO mutable variables.
+
+Requirements:
+
+- Assign an initial value.
+- Use the original value.
+- Change the value.
+- Display the updated value.
+
+The program must compile without warnings.
+
+--------------------------------------------------
+
+6. FUNCTIONS
+
+The program must contain at least FIVE functions in addition to main().
+
+Examples:
+
+display_title()
+
+get_personal_information()
+
+get_learning_information()
+
+mutable_variable_demo()
+
+display_summary()
+
+Use your own names if desired.
+
+--------------------------------------------------
+
+7. PROFILE SUMMARY
+
+Display a final summary showing all collected information.
+
+Example:
+
+==========================
+PROFILE SUMMARY
+==========================
+
+Name: Troy
+Age: 24
+Major: Computer Science
+Favorite Language: Rust
+Current Lesson: 4
+Hours Studied: 3.5
+
+--------------------------------------------------
+
+8. CODE ORGANIZATION
+
+Your code should be organized into clear sections.
+
+Each function should have one primary responsibility.
+
+--------------------------------------------------
+
+PROJECT RULES
+
+✅ Must use fn main()
+
+✅ Must use user input
+
+✅ Must use at least 5 additional functions
+
+✅ Must use multiple data types
+
+✅ Must use mutable variables
+
+✅ Must use String::new()
+
+✅ Must use io::stdin()
+
+✅ Must use explicit type annotations
+
+✅ Must compile without warnings
+
+✅ Must be organized and readable
+
+✅ Must only use concepts from Lessons 1-4
+
+❌ No loops
+
+❌ No conditionals
+
+❌ No structs
+
+❌ No vectors
+
+❌ No modules
+
+❌ No concepts from future lessons
+
+--------------------------------------------------
+
+SUCCESS CRITERIA
+
+When cargo run is executed:
+
+- The user enters information.
+- Data is stored in variables.
+- Multiple functions are used.
+- A formatted profile summary is displayed.
+- The project compiles without warnings.
+- The code is organized and readable.
+
+--------------------------------------------------
+
+BONUS CHALLENGE (OPTIONAL)
+
+Create section headers throughout the application.
+
+Example:
+
+====================
+PERSONAL INFORMATION
+====================
+
+====================
+LEARNING INFORMATION
+====================
+
+====================
+PROFILE SUMMARY
+====================
