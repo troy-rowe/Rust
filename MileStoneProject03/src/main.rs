@@ -5,23 +5,19 @@ fn main() {
 
     println!();
 
-    println!("*********************");
-    println!("PERSONAL INFORMATION");
-    println!("*********************");
-
     user_input();
 
-    println!("*********************");
-    println!("LEARNING INFORMATION");
-    println!("*********************");
+    println!();
 
     learn_info();
 
-    println!("*******************");
-    println!("DATA TYPE PRACTICE");
-    println!("*******************");
+    println!();
 
     data_type();
+
+    println!();
+
+    mut_var();
 }
 
 fn title() {
@@ -31,6 +27,10 @@ fn title() {
 }
 
 fn user_input() {
+    println!("*********************");
+    println!("PERSONAL INFORMATION");
+    println!("*********************");
+
     let mut name: String = String::new();
     let mut age: String = String::new();
     let mut major: String = String::new();
@@ -63,6 +63,10 @@ fn user_input() {
 }
 
 fn learn_info() {
+    println!("*********************");
+    println!("LEARNING INFORMATION");
+    println!("*********************");
+
     let mut current_lesson: String = String::new();
     let mut hours_studies: String = String::new();
     let mut enjoy_rust: String = String::new();
@@ -88,6 +92,10 @@ fn learn_info() {
 }
 
 fn data_type() {
+    println!("*******************");
+    println!("DATA TYPE PRACTICE");
+    println!("*******************");
+
     let integer: i32 = 20;
     let float: f64 = 4.9;
     let boolean: bool = false;
@@ -99,4 +107,24 @@ fn data_type() {
     println!("{}", boolean);
     println!("{}", character);
     println!("{}", string);
+}
+
+fn mut_var() {
+    println!("***************************");
+    println!("MUTABLE VARIABLES PRACTICE");
+    println!("***************************");
+
+    let mut var1: i32 = 9;
+    let mut var2: f64 = 7.9;
+
+    println!("Here are the variables before the change:");
+    println!("{}", var1);
+    println!("{}", var2);
+
+    var1 = 3;
+    var2 = 8.9;
+
+    println!("Here are the variables after the change:");
+    println!("{}", var1);
+    println!("{}", var2);
 }
