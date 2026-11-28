@@ -16,6 +16,12 @@ fn main() {
     println!("*********************");
 
     learn_info();
+
+    println!("*******************");
+    println!("DATA TYPE PRACTICE");
+    println!("*******************");
+
+    data_type();
 }
 
 fn title() {
@@ -79,4 +85,18 @@ fn learn_info() {
     println!("Your current Rust lesson is: {}", current_lesson);
     println!("Your hours studied is: {}", hours_studies);
     println!("Are you enjoying Rust: {}", enjoy_rust);
+}
+
+fn data_type() {
+    let integer: i32 = 20;
+    let float: f64 = 4.9;
+    let boolean: bool = false;
+    let character: char = 'N';
+    let string: &str = "Hello";
+
+    println!("{}", integer);
+    println!("{}", float);
+    println!("{}", boolean);
+    println!("{}", character);
+    println!("{}", string);
 }
